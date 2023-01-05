@@ -1,2 +1,31 @@
 #ignore all folders starting with an underscore
 _*/
+
+# Executables
+*.exe
+*.out
+*.app
+
+# OS System files
+.DS_Store
+Thumbs.db
+
+# GIT configurations
+.gitattributes
+
+# ESLint
+.eslintrc.json
+
+# VScode
+.vscode/
+
+# snyk
+.dccache
+
+# Homey exclude
+/env.json
+/node_modules/
+/.homeybuild/
+package-lock.json
+tsconfig.json
+transalation.txt
