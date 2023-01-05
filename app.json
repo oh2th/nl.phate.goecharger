@@ -1,14 +1,14 @@
 {
   "id": "nl.phate.goecharger",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "compatibility": ">=1.5.0",
   "sdk": 2,
   "name": {
-    "en": "Go-e Charger"
+    "en": "Go-e Charger (DEPRECATED)"
   },
   "brandColor": "#007bff",
   "description": {
-    "en": "Adds support for the Go-e car Charger"
+    "en": "DEPRECATED: Adds support for the Go-e car Charger"
   },
   "category": [
     "energy"
@@ -23,7 +23,7 @@
     "email": "tim.willemsen@gmail.com"
   },
   "bugs": {
-  "url": "https://github.com/phatenl/nl.phate.goecharger"
+    "url": "https://github.com/phatenl/nl.phate.goecharger"
   },
   "homeyCommunityTopicId": 14162,
   "contributors": {
@@ -41,132 +41,132 @@
       }
     }
   },
-  "flow" : {
+  "flow": {
     "triggers": [
       {
-            "id": "charging_finished",
-            "title": {
-              "en": "Finished charging",
-              "nl": "Laden afgerond"
-            }
+        "id": "charging_finished",
+        "title": {
+          "en": "Finished charging",
+          "nl": "Laden afgerond"
+        }
       },
       {
-            "id": "charging_ended",
-            "title": {
-              "en": "Charging ended",
-              "nl": "Laden beëindigd"
-            }
+        "id": "charging_ended",
+        "title": {
+          "en": "Charging ended",
+          "nl": "Laden beëindigd"
+        }
       },
       {
-            "id": "charging_started",
-            "title": {
-              "en": "Charging started",
-              "nl": "Laden gestart"
-            }
+        "id": "charging_started",
+        "title": {
+          "en": "Charging started",
+          "nl": "Laden gestart"
+        }
       },
       {
-            "id": "car_connected",
-            "title": {
-              "en": "Car connected",
-              "nl": "Auto verbonden"
-            }
+        "id": "car_connected",
+        "title": {
+          "en": "Car connected",
+          "nl": "Auto verbonden"
+        }
       },
       {
-            "id": "car_unplugged",
-            "title": {
-              "en": "Car unplugged",
-              "nl": "Auto ontkoppeld"
-            }
+        "id": "car_unplugged",
+        "title": {
+          "en": "Car unplugged",
+          "nl": "Auto ontkoppeld"
+        }
       },
       {
-            "id": "charging_allowed",
-            "title": {
-              "en": "Charging allowed",
-              "nl": "Opladen toegestaan"
-            }
+        "id": "charging_allowed",
+        "title": {
+          "en": "Charging allowed",
+          "nl": "Opladen toegestaan"
+        }
       },
       {
-            "id": "charging_disallowed",
-            "title": {
-              "en": "Charging disallowed",
-              "nl": "Opladen niet meer toegestaan"
-            }
+        "id": "charging_disallowed",
+        "title": {
+          "en": "Charging disallowed",
+          "nl": "Opladen niet meer toegestaan"
+        }
       },
       {
-            "id": "status_changed",
-            "title": {
-              "en": "Status changed",
-              "nl": "Status gewijzigd"
-            }
+        "id": "status_changed",
+        "title": {
+          "en": "Status changed",
+          "nl": "Status gewijzigd"
+        }
       }
     ],
-    "conditions" : [
+    "conditions": [
       {
-            "id": "is_finished",
-            "title": {
-              "en": "!{{Finished charging|Not finished charging}}",
-              "nl": "!{{Laden afgerond|Laden niet afgerond}}"
-            }
+        "id": "is_finished",
+        "title": {
+          "en": "!{{Finished charging|Not finished charging}}",
+          "nl": "!{{Laden afgerond|Laden niet afgerond}}"
+        }
       },
       {
-            "id": "is_charging",
-            "title": {
-              "en": "!{{Charging|Not charging}}",
-              "nl": "!{{Bezig met laden|Niet bezig met laden}}"
-            }
+        "id": "is_charging",
+        "title": {
+          "en": "!{{Charging|Not charging}}",
+          "nl": "!{{Bezig met laden|Niet bezig met laden}}"
+        }
       },
       {
-            "id": "is_allowed",
-            "title": {
-              "en": "!{{Charging allowed|Charging not allowed}}",
-              "nl": "!{{Laden toegestaan|Laden niet toegestaan}}"
-            }
+        "id": "is_allowed",
+        "title": {
+          "en": "!{{Charging allowed|Charging not allowed}}",
+          "nl": "!{{Laden toegestaan|Laden niet toegestaan}}"
+        }
       },
       {
-            "id": "is_plugged",
-            "title": {
-              "en": "!{{Car plugged in|No car plugged in}}",
-              "nl": "!{{Auto verbonden|Geen auto verbonden}}"
-            }
+        "id": "is_plugged",
+        "title": {
+          "en": "!{{Car plugged in|No car plugged in}}",
+          "nl": "!{{Auto verbonden|Geen auto verbonden}}"
+        }
       }
     ],
-    "actions" : [
+    "actions": [
       {
-            "id": "Allow_charging",
-            "title": {
-              "en": "Allow charging",
-              "nl": "Laden toestaan"
-            }
+        "id": "Allow_charging",
+        "title": {
+          "en": "Allow charging",
+          "nl": "Laden toestaan"
+        }
       },
       {
-            "id": "Stop_charging",
-            "title": {
-              "en": "Stop charging",
-              "nl": "Laden stoppen"
-            }
+        "id": "Stop_charging",
+        "title": {
+          "en": "Stop charging",
+          "nl": "Laden stoppen"
+        }
       },
       {
-            "id": "Change_amps_to",
-            "title": {
-              "en": "Change amperage to...",
-              "nl": "Amperage veranderen naar..."
-            },
-            "titleformatted": {
-              "en": "Change amperage to [[amps]]",
-              "nl": "Amperage veranderen naar [[amps]]"
-            },
-            "args": [
-              {
-                "type": "range",
-                "name": "amps",
-                "min": 6,
-                "max": 32,
-                "step": 1,
-                "label": "A",
-                "labelMultiplier": 1,
-                "labelDecimals": 0
-              }
-            ]
+        "id": "Change_amps_to",
+        "title": {
+          "en": "Change amperage to...",
+          "nl": "Amperage veranderen naar..."
+        },
+        "titleformatted": {
+          "en": "Change amperage to [[amps]]",
+          "nl": "Amperage veranderen naar [[amps]]"
+        },
+        "args": [
+          {
+            "type": "range",
+            "name": "amps",
+            "min": 6,
+            "max": 32,
+            "step": 1,
+            "label": "A",
+            "labelMultiplier": 1,
+            "labelDecimals": 0
+          }
+        ]
       }
     ]
   },
@@ -467,6 +467,7 @@
       "name": {
         "en": "Go-e Charger Home+"
       },
+      "deprecated": true,
       "class": "socket",
       "capabilities": [
         "finished",
@@ -490,7 +491,7 @@
         "large": "/drivers/go-e_charger_home_plus/assets/images/large.png",
         "small": "/drivers/go-e_charger_home_plus/assets/images/small.png"
       },
-      "icon":"/drivers/go-e_charger_home_plus/assets/icon.svg",
+      "icon": "/drivers/go-e_charger_home_plus/assets/icon.svg",
       "pair": [
         {
           "id": "start"

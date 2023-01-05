@@ -40,8 +40,11 @@
   },
   "1.0.0": {
     "en": "Version 1.0"
-  }
+  },
   "1.0.1": {
     "en": "Fixed a specific 1 phase connection situation where the voltage could become negative"
-}
+  },
+  "1.1.0": {
+    "en": "Deprecation notice - Start using the new app supporting SDK3 and new go-e APIv2 features."
+  }
 }

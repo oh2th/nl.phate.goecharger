@@ -1,4 +1,8 @@
-Go-e Charger app for Homey Athom
+DEPRECATED: Go-e Charger app for Homey Athom
+
+This app for go-e Chargers will not support new Homey Pro 2023, new app will be in place to support Homey Pro 2023 and new go-e APIv2 based features for new devices.
+
+
 Adds support for the Go-e car Charger to the Homey Athom.
 
 Features:
