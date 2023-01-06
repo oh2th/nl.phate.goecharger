@@ -46,5 +46,8 @@
   },
   "1.1.0": {
     "en": "Deprecation notice - Start using the new app supporting SDK3 and new go-e APIv2 features."
+  },
+  "1.1.1": {
+    "en": "Deprecation notice to point to he new app"
   }
 }
