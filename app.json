@@ -467,7 +467,6 @@
       "name": {
         "en": "Go-e Charger Home+"
       },
-      "deprecated": true,
       "class": "socket",
       "capabilities": [
         "finished",
