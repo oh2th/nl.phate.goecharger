@@ -12,9 +12,9 @@ class goechargerapp extends Homey.App {
 
 	async sendNotifications() {
 		try {
-			const ntfy_deprecation_01 = `[Go-e Charger] (1/3) - Deprecation notice: This app will not be supported on SDK3 and Homey Pro 2023.`;
+			const ntfy_deprecation_01 = `[Go-e Charger] (1/3) - Deprecation notide: This app is no longer maintained.`;
 			const ntfy_deprecation_02 = `[Go-e Charger] (2/3) - For future support and new features please install the new app.`;
-			const ntfy_deprecation_03 = `[Go-e Charger] (3/3) - App store link: https://tinyurl.com/go-echarger`;
+			const ntfy_deprecation_03 = `[Go-e Charger] (3/3) - App store link: https://homey.app/a/com.go-e.charger`;
 
 			await Homey.ManagerNotifications.registerNotification({
 				excerpt: ntfy_deprecation_01
@@ -34,6 +34,5 @@ class goechargerapp extends Homey.App {
 	}
 	
 }
-
 
 module.exports = goechargerapp;

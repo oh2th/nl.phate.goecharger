@@ -48,56 +48,64 @@
         "title": {
           "en": "Finished charging",
           "nl": "Laden afgerond"
-        }
+        },
+        "deprecated": true
       },
       {
         "id": "charging_ended",
         "title": {
           "en": "Charging ended",
           "nl": "Laden beëindigd"
-        }
+        },
+        "deprecated": true
       },
       {
         "id": "charging_started",
         "title": {
           "en": "Charging started",
           "nl": "Laden gestart"
-        }
+        },
+        "deprecated": true
       },
       {
         "id": "car_connected",
         "title": {
           "en": "Car connected",
           "nl": "Auto verbonden"
-        }
+        },
+        "deprecated": true
       },
       {
         "id": "car_unplugged",
         "title": {
           "en": "Car unplugged",
           "nl": "Auto ontkoppeld"
-        }
+        },
+        "deprecated": true
       },
       {
         "id": "charging_allowed",
         "title": {
           "en": "Charging allowed",
           "nl": "Opladen toegestaan"
-        }
+        },
+        "deprecated": true
       },
       {
         "id": "charging_disallowed",
         "title": {
           "en": "Charging disallowed",
           "nl": "Opladen niet meer toegestaan"
-        }
+        },
+        "deprecated": true
       },
       {
         "id": "status_changed",
         "title": {
           "en": "Status changed",
           "nl": "Status gewijzigd"
-        }
+        },
+        "deprecated": true
       }
     ],
     "conditions": [
@@ -106,28 +114,32 @@
         "title": {
           "en": "!{{Finished charging|Not finished charging}}",
           "nl": "!{{Laden afgerond|Laden niet afgerond}}"
-        }
+        },
+        "deprecated": true
       },
       {
         "id": "is_charging",
         "title": {
           "en": "!{{Charging|Not charging}}",
           "nl": "!{{Bezig met laden|Niet bezig met laden}}"
-        }
+        },
+        "deprecated": true
       },
       {
         "id": "is_allowed",
         "title": {
           "en": "!{{Charging allowed|Charging not allowed}}",
           "nl": "!{{Laden toegestaan|Laden niet toegestaan}}"
-        }
+        },
+        "deprecated": true
       },
       {
         "id": "is_plugged",
         "title": {
           "en": "!{{Car plugged in|No car plugged in}}",
           "nl": "!{{Auto verbonden|Geen auto verbonden}}"
-        }
+        },
+        "deprecated": true
       }
     ],
     "actions": [
@@ -136,14 +148,16 @@
         "title": {
           "en": "Allow charging",
           "nl": "Laden toestaan"
-        }
+        },
+        "deprecated": true
       },
       {
         "id": "Stop_charging",
         "title": {
           "en": "Stop charging",
           "nl": "Laden stoppen"
-        }
+        },
+        "deprecated": true
       },
       {
         "id": "Change_amps_to",
@@ -166,7 +180,8 @@
             "labelMultiplier": 1,
             "labelDecimals": 0
           }
-        ]
+        ],
+        "deprecated": true
       }
     ]
   },
@@ -467,6 +482,7 @@
       "name": {
         "en": "Go-e Charger Home+"
       },
+      "deprecated": true,
       "class": "socket",
       "capabilities": [
         "finished",
