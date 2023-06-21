@@ -49,5 +49,8 @@
   },
   "1.1.1": {
     "en": "Deprecation notice to point to he new app"
+  },
+  "1.1.2": {
+    "en": "Renamed to show as last on list"
   }
 }
