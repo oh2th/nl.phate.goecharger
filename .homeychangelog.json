@@ -52,5 +52,8 @@
   },
   "1.1.2": {
     "en": "Renamed to show as last on list"
+  },
+  "2.0.0": {
+    "en": "DEPRECATION: Disabled all flow cards and driver for a final push to the new app."
   }
 }
