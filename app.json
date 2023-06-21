@@ -4,11 +4,11 @@
   "compatibility": ">=1.5.0",
   "sdk": 2,
   "name": {
-    "en": "þ Go-e Charger (DEPRECATED)"
+    "en": "DEPRECATED Go-e Charger"
   },
   "brandColor": "#007bff",
   "description": {
-    "en": "DEPRECATED: Adds support for the Go-e car Charger"
+    "en": "DEPRECATED: Search for 'go-e Charger' in the app store for the new version."
   },
   "category": [
     "energy"
@@ -33,13 +33,6 @@
         "github": "https://github.com/phatenl/"
       }
     ]
-  },
-  "contributing": {
-    "donate": {
-      "paypal": {
-        "username": "TimWillemsen"
-      }
-    }
   },
   "flow": {
     "triggers": [
